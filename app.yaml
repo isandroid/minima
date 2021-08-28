@@ -1,0 +1,50 @@
+runtime: python27
+api_version: 1
+threadsafe: true
+
+handlers:
+- url: /(.*\.js)
+  mime_type: text/javascript
+  static_files: _site/\1
+  upload: _site/(.*\.js)
+
+- url: /(.*\.(jpg|png|ico))
+  static_files: _site/\1
+  upload: _site/(.*\.img)
+
+- url: /(.*\.css)
+  mime_type: text/css
+  static_files: _site/\1
+  upload: _site/(.*\.css)
+
+- url: /(.*\.html)
+  mime_type: text/html
+  static_files: _site/\1
+  upload: _site/(.*\.html)
+
+- url: /(.*\.xml)
+  mime_type: text/xml
+  static_files: _site/\1
+  upload: _site/(.*\.xml)
+
+- url: /(.*\.(eot|svg|svgz|otf|ttf|woff|woff2))
+  static_files: _site/\1
+  upload: _site/(.*\.fonts)
+
+- url: /
+  static_files: _site/index.html
+  upload: _site/index.html
+
+- url: /(.+)/
+  static_files: _site/\1/index.html
+  upload: _site/(.+)/index.html
+  expiration: "15m"
+
+- url: /(.+)
+  static_files: _site/\1/index.html
+  upload: _site/(.+)/index.html
+  expiration: "15m"
+
+- url: /(.*)
+  static_files: _site/\1
+  upload: _site/(.*)
