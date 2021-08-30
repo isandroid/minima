@@ -11,11 +11,11 @@
     <main class="page-content" aria-label="Content">
       <div class="wrapper">
         <div class="post-content">
-          <form action="{{ page.permalink }}" method="get">
-            <label for="search-box">Search</label>
-            <input type="text" id="search-box" name="query">
-            <input type="submit" value="search">
+          <form class="example" action="{{ page.permalink }}" method="get">
+            <input type="text" id="search-box" placeholder="Cari..." name="query">
+            <button type="submit"><i class="fa fa-search"></i></button>
           </form>
+
           <p>&nbsp;</p>
           <ul id="search-results"></ul>
           {{ content }}
