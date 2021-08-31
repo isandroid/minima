@@ -56,5 +56,8 @@ theme: minima
 # Permalink
 permalink: none
 
+# Google Analitik
+google_analytics: G-84RCGBV9QK
+
 plugins:
  - jekyll-seo-tag
