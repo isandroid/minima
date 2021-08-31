@@ -964,7 +964,7 @@ Mereka akan mengatakan kepadanya: 'Wahai Dzul-Qarnain! Ya'juj dan Ma'juj telah m
 
 Penjajahan yang dilakukan negara-negara eropa diawali oleh *Imperium kolonial* yakni diawali Zaman Penjelajahan Eropa. Zaman itu merupakan Zaman Pelayaran yang dimulai dengan lomba penjelajahan antara kekuatan laut paling maju pada masa itu. Portugal dan Spanyol memulainya pada abad ke-15 [[^wikipedia_imperium_kolonial]].
 
-![Imperium Kolonial](/assets/images/imperium-kolonial.webp)
+![Imperium Kolonial](/assets/img/imperium-kolonial.webp)
 
 Dikutip dari Hermeneutika Pascakolonial (2004) karya Mudji Sutrisno, kolonialisme berasal dari kata latin colonia artinya pertanian atau permukiman. Pengertian kolonialisme adalah politik yang dijalankan mengenai suatu koloni, suatu bagian dari imperium. Awalnya hal ini dikaitkan dengan oang-orang Romawi yang bermukim di negeri-negeri lain dengan tetap mempertahankan kewarganegaraan mereka.
 

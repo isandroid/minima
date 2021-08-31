@@ -27,6 +27,11 @@ handlers:
   static_files: _site/\1
   upload: _site/(.*\.xml)
 
+- url: /(.*\.txt)
+  mime_type: text/txt
+  static_files: _site/\1
+  upload: _site/(.*\.txt)
+
 - url: /(.*\.(eot|svg|svgz|otf|ttf|woff|woff2))
   static_files: _site/\1
   upload: _site/(.*\.fonts)
