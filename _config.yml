@@ -4,6 +4,7 @@ author:
   email: isa.mujahid@ahmadiyya.or.id
 description: Wiki Pribadi milik Isa Mujahid Islam.
 url: https://wiki.isa.web.id
+lang: ID
 
 show_excerpts: false # set to true to show excerpts on the homepage
 
@@ -47,8 +48,10 @@ minima:
 
 # If you want to link only specific pages in your header, uncomment
 # this and add the path to the pages in order as they should show up
+
 #header_pages:
-# - about.md
+# - tentang.md
+# - cari.md
 
 # Build settings
 theme: minima
@@ -61,3 +64,4 @@ google_analytics: G-84RCGBV9QK
 
 plugins:
  - jekyll-seo-tag
+ - jekyll-sitemap
