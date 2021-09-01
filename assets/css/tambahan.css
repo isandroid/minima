@@ -35,3 +35,10 @@ form.example::after {
   clear: both;
   display: table;
 }
+
+/* agar ul atau ol agar tautannya tidak terlalu dekat */
+
+.spasi {
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+}
